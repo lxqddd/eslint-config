@@ -1,0 +1,14 @@
+{
+  "cSpell.words": [
+    "backreference",
+    "camelcase",
+    "isnan",
+    "linebreak",
+    "nonwords"
+  ],
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
