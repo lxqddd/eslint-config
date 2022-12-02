@@ -328,7 +328,6 @@ module.exports = {
     'import/no-named-as-default': 'off',
     'import/namespace': 'off',
     'n/no-callback-literal': 'off',
-
     'sort-imports': [
       'error',
       {
@@ -344,9 +343,9 @@ module.exports = {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
 
-    // antfu
+    // xy
     'xy/if-newline': 'error',
     'xy/import-dedupe': 'error'
-    // 'antfu/prefer-inline-type-import': 'error',
+    // 'xy/prefer-inline-type-import': 'error',
   }
 }
