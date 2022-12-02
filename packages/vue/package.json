@@ -1,0 +1,19 @@
+{
+  "name": "@xy/eslint-config-vue",
+  "version": "0.0.1",
+  "author": "向阳",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config-vue"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "@xy/eslint-config-basic": "workspace:^0.0.1",
+    "@xy/eslint-config-ts": "workspace:^0.0.1",
+    "eslint-plugin-vue": "^9.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "local-pkg": "^0.4.2"
+  }
+}
