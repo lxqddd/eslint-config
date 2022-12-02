@@ -20,10 +20,6 @@
   "files": [
     "*.js"
   ],
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
-
   "dependencies": {
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-xy": "workspace:^0.0.1"
