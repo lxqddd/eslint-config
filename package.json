@@ -1,26 +1,19 @@
 {
-  "name": "@xy/eslint-config-monorepo",
-  "version": "0.0.1",
-  "private": "true",
-  "packageManager": "pnpm@7.1.2",
+  "name": "xy-eslint-config",
+  "version": "0.0.2",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "./src/index.js"
+  ],
   "author": "向阳",
   "license": "MIT",
-  "homepage": "https://github.com/lxqddd/eslint-config#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lxqddd/eslint-config.git"
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   },
-  "bugs": {
-    "url": "https://github.com/lxqddd/eslint-config/issues"
-  },
-  "scripts": {
-    "lint": "eslint . --fix"
-  },
-  "devDependencies": {
-    "@xy/eslint-config": "*",
-    "eslint": "^8.28.0",
-    "eslint-plugin-xy": "workspace:*",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.9.3"
+  "dependencies": {
+    "@antfu/eslint-config": "^0.43.1"
   }
 }
